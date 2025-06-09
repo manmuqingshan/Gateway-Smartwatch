@@ -1,3 +1,6 @@
+// NOTE: ESP32Servo may be incompatible with the current ESP-IDF-Arduino port.
+// If you experience crashes, please try removing ESP32Servo
+
 #include <ESP32Servo.h>  // Using Servo library to control servo
 #include <esp_now.h>
 #include <WiFi.h>
